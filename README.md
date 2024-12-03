@@ -14,6 +14,7 @@ The **APB Protocol Project** provides a Verilog/VHDL-based implementation of the
 - **Master and Slave APB Interface:** Implementations for both the master and slave sides of the protocol.
 - **Low Power Operation:** Designed with low-power operation in mind.
 
+## APB Interface Block Diagram With Slaves :
 
 ## APB Protocol Implementation using Verilog :
 Implementing the APB protocol in Verilog involves defining the bus signals and designing
