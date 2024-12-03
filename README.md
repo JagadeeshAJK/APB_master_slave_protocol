@@ -18,3 +18,11 @@ The **APB Protocol Project** provides a Verilog/VHDL-based implementation of the
 
 ## **Project Structure**
 
+
+## WRITE TRANSFER
+This section describes the following types of write transfer:
+• With no wait states
+• With wait states
+All signals shown in this section are sampled at the rising edge of Pclk.
+## - Write Transfer with no wait state:
+
