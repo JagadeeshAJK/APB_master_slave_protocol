@@ -25,9 +25,9 @@ This section describes the following types of write transfer:
 -  With wait states
 All signals shown in this section are sampled at the rising edge of Pclk.
 ## - Write Transfer with no wait state:
-[ View ](https://github.com/JagadeeshAJK/APB_master_slave_protocol/blob/main/Write_nowait_state.png)
+![WNwaait](https://github.com/JagadeeshAJK/APB_master_slave_protocol/blob/main/Write_nowait_state.png)
 ## - Write Transfer with wait state:
-[ View ](https://github.com/JagadeeshAJK/APB_master_slave_protocol/blob/main/Write_wait_state.png)
+![Wwait](https://github.com/JagadeeshAJK/APB_master_slave_protocol/blob/main/Write_wait_state.png)
 
 
 ## READ TRANSFER
