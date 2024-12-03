@@ -21,14 +21,14 @@ the master and slave modules. Verilog provides a robust framework for describing
 at the register-transfer level (RTL).
 - **Master Module :** The APB master module initiates the data transfers by generating read
 and write requests.
-- **MUX Module :** The APB MUX module initiates the slave selection by generating Psel
-• It takes the address (Paddr) and selects the appropriate slave based on the range
-of addresses assigned to each peripheral.
-• It forwards the correct peripheral’s data lines (Prdata/Pwdata) to/from the
+- **MUX Module :** The APB MUX module initiates the slave selection by generating Psel<br>
+ --->It takes the address (Paddr) and selects the appropriate slave based on the range
+of addresses assigned to each peripheral.<br>
+ ---> It forwards the correct peripheral’s data lines (Prdata/Pwdata) to/from the
 master.
 - **Slave Modules (2-slaves) :** The APB slave module responds to the master's requests and
 handles the data transactions.
-**Pslave1** - 000(0) to 011(3)
+**Pslave1** - 000(0) to 011(3) <br>
 **Pslave2** - 100(4) to 111(7)
 - **State Diagram :** A state machine manages the different phases of the APB protocol,
 ensuring proper synchronization and data transfer.
