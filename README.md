@@ -21,10 +21,10 @@ The **APB Protocol Project** provides a Verilog/VHDL-based implementation of the
 master and slave modules.
 - Paddr[2:0] : Specifies the address of the slave device.
 - Psel : Activates the selected slave device.
-**Control Signals :**
+  ** Control Signals :**
 - Pwrite : Indicates whether the transaction is a write or read operation.
 - Pready : Indicates that the slave is ready to accept or provide data.
-**Data Signals :**
+ **Data Signals :**
 - Pwdata[15:0] : Contains the data to be written to the slave.
 - Prdata[15:0] : Contains the data read from the slave.
 
